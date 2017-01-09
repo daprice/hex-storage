@@ -1,0 +1,5 @@
+This is my take on the idea of a modular drawer system for storing small parts, as seen in other projects like [dto26's The HIVE](http://www.thingiverse.com/thing:1743145), [iamironman's Hex desk organizer](http://www.thingiverse.com/thing:1572030), [RichRap's PuzzleDesk](https://www.youmagine.com/designs/richrap-puzzledesk-collection), and many more. This project has several goals:
+
+* __Usability__ — the drawers should slide easily, have stops to keep them from falling out, and the entire thing should be easy to print and assemble.
+* __Customizability__ — ideally, the system should be usable at a wide range of sizes, from small parts storage to household goods. In addition, it should be easy to recreate one's configuration to print expansions or replacement parts later (the config info will be printed inside the drawers).
+* __Flexibility__ — building on the previous point, the system should be able to be wall mounted, stacked on a surface, or even hang underneath a desk and maintain the ease of adding and removing modules.
