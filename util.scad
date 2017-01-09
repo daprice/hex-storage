@@ -10,7 +10,11 @@ module drawer() {
 		//the main body of the drawer
 		difference() {
 			translate([0,-0.01,0]) rotate([-90,0,0]) hexagon_tube(d_d + 0.02, d_w/2 + d_wt, d_wt);
-			translate([-d_w,-0.1,-0.1]) cube([d_w*2, d_d*2, d_w]);
+
+			//limit height of side walls based on d_wh set in config.scad
+			d_h = d_w * sqrt(3) / 2;
+			wallstop = (d_wh / 100) * d_h;
+			translate([-d_w,-0.1,-0.1 - d_h/2 + wallstop]) cube([d_w*2, d_d*2, d_w]);
 		}
 
 		//drawer back

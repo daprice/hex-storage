@@ -9,6 +9,11 @@ d_w = 50; // [25:500]
 //Drawer wall thickness (adjust to optimize printing based on your extrusion width or to make drawers tougher)
 d_wt = 1.4;
 
+/* [Drawer Options] */
+
+//Drawer wall height: How far up the drawer should the side walls go? (percentage)
+d_wh = 50; // [0:1:100]
+
 /* [Mounting] */
 
 //Wall mount: whether to include holes at the back of the modules for mounting to a wall
